@@ -26,7 +26,13 @@
     </div>
 
     <div class = "row" style="height: 50vh;">
+        <div class="col big">
             <div id="yourVegaContainer" class="col big" style="padding: left;"></div>
+            <div style="width: 55%; text-align: center;">
+                <button class="button" onclick="toggleVisualization('spec1')">Show Total Emissions</button>
+                <button class="button" onclick="toggleVisualization('spec2')">Show Emissions Per Capita</button>
+                </div>
+            </div>
 
         <div class="col small">
             <p>Methane is a greenhouse gas that contributes to global warming. 
@@ -36,14 +42,12 @@
                 but when we account for population, Botswana, New Zealand and Uruguay stand out as high-emitting countries.
             </p>
         </div>            
-        <div style="width: 55%; text-align: center;">
-                <button class="button" onclick="toggleVisualization('spec1')">Show Total Emissions</button>
-                <button class="button" onclick="toggleVisualization('spec2')">Show Emissions Per Capita</button>
-                </div>
+
     </div>
 
-
-    <div, class="row" style="text-align: center;">
+<br>
+<div>
+    <div, style="text-align: center;">
         <div>
             <div style="display: inline-block; font-size: large; color:#3438CB">&#9632 Agriculture</div>
             <div style="display: inline-block; font-size: large; color:#fbb89e">&#9632 Waste</div>
@@ -67,13 +71,16 @@
             </div>
             
         <div class="col six">
-            <p>The pie chart shows that <spam class="a">agriculture</spam> makes up 63.9% of the total methane emissions, 
+            <p>The pie chart shows that <span class="a">agriculture</span> makes up 63.9% of the total methane emissions, 
                 followed by <span class="w">waste</span> which makes up 31.7% and <span class="o">other</span> which makes up the remaining 4.4%.</p>
+                <p>The <span class="o">other</span> component may be from sources such as fossil fuel production and distribution, fracking or industrial processes.    </p>
         </div>
      <div id="box" class="col six"></div>
 
      <div class="col six">
-        <p>Something about the box plot</p>
+        <p>This box plot shows that both <span class="a"> agriculture</span> and <span class="w">waste</span> methane production are highly variable across the globe,
+        while <span class="o">other</span> methane production is not.</p>
+    </div>
     </div>
     </div>
 

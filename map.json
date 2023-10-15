@@ -5,7 +5,7 @@
         "fontSize": 16,
         "font": "Libre Baskerville"},
     "width": "container",
-    "height": 300,
+    "height": 350,
     "projection": {"type": "equalEarth"}, 
     
     "layer":[

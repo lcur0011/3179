@@ -18,8 +18,9 @@
     "y": {
       "field": "emissions",
       "type": "quantitative",
-      "scale": {"zero": false},
       "title": "Emissions (kT)"
     }
   }
 }
+
+
