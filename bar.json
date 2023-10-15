@@ -6,7 +6,7 @@
     "transform": [{"filter": "datum.totalEmissions>5000"}],
     "mark": "bar",
     "encoding": {
-    "x": { "field": "country", "type": "nominal", "title": "Country" },
+    "x": { "field": "country", "type": "nominal", "title": null },
     "y": { "field": "emissions", "type": "quantitative", "title": "Emissions (kT)"},
     "color":{
         "legend": null,
@@ -16,7 +16,7 @@
                     "title": "Emission Type"
     },
     "tooltip":[{ "field": "country", "type": "nominal", "title": "Country" },
-    { "field": "emissions", "type": "quantitative", "title": "Emissions (kT)"}]
+    { "field": "emissions", "type": "quantitative", "title": null}]
     
 }
     }

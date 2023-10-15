@@ -7,7 +7,7 @@
     "extent": "min-max"
   },
   "encoding": {
-    "x": {"field": "type", "type": "nominal", "title": "Emission Type"},
+    "x": {"field": "type", "type": "nominal", "title": null},
     "color":{
       "legend": null,
       "field": "type",

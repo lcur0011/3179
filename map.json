@@ -1,8 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title":  {
-        "text":"Total Emissions (kT)",
-        "fontSize": 25,
+        "text":"Total Emissions",
+        "fontSize": 16,
         "font": "Libre Baskerville"},
     "width": "container",
     "height": 300,
