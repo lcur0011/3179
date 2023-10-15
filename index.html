@@ -21,55 +21,66 @@
 </head>
 
 <body>
+    <!-- S1a -->
     <div style="text-align: center; font-size: 20">
         <h1>Global Methane Emissions</h1>
     </div>
+    <!-- E1a -->
 
-    <div class = "row" style="height: 50vh;">
+    <!-- S1b -->
+    <div class = "row">
+        <!-- S2a -->
         <div class="col big">
             <div id="yourVegaContainer" class="col big" style="padding: left;"></div>
-            <div style="width: 55%; text-align: center;">
+            <div style="text-align: center;">
                 <button class="button" onclick="toggleVisualization('spec1')">Show Total Emissions</button>
                 <button class="button" onclick="toggleVisualization('spec2')">Show Emissions Per Capita</button>
                 </div>
             </div>
+        <!-- E2a -->
 
+        <!-- S2b -->
         <div class="col small">
             <p>Methane is a greenhouse gas that contributes to global warming. 
                 It has a warming power that is more than 80 times stronger than carbon dioxide.</p>
             <p>Methane has both natural and anthropological sources. Only human-produced methane is accounted for in the data</p>
             <p>As shown on the map, China, India and the United States of America produce the most methane globally,
-                but when we account for population, Botswana, New Zealand and Uruguay stand out as high-emitting countries.
-            </p>
-        </div>            
+                but when we account for population, Botswana, New Zealand and Uruguay stand out as high-emitting countries.</p>
+        </div>
+        <!-- E2b -->         
 
     </div>
+    <!-- E1b -->
 
 <br>
-<div>
-    <div, style="text-align: center;">
+
+
+    <!-- S1 -->
+    <div, class="row" style="text-align: center;">
         <div>
             <div style="display: inline-block; font-size: large; color:#3438CB">&#9632 Agriculture</div>
             <div style="display: inline-block; font-size: large; color:#fbb89e">&#9632 Waste</div>
             <div style="display: inline-block; font-size: large; color:#c1cdc1">&#9632 Other</div>
         </div>
     </div>
-<br>
+    <!-- E1 -->
 
+    <br>
 
+    
+
+    <!-- S1 -->
     <div class = "row", style="text-align: left;">
+        <!-- S2 -->
         <div id = "bar" class="col six">
             </div>
-
         <div class="col six">
             <p>This bar chart shows the top 7 countries, and the composition of their methane contributions.</p>
             <p>For Brazil, China, India, Pakistan and the USA, <span class='a'> agriculture </span> is responsible for most of methane produced, 
                 while for Indonesia and Russia, <span class="w">waste</span> is responsible. </p>
         </div>
-
         <div id = "pie" class = "col six">
-            </div>
-            
+            </div>   
         <div class="col six">
             <p>The pie chart shows that <span class="a">agriculture</span> makes up 63.9% of the total methane emissions, 
                 followed by <span class="w">waste</span> which makes up 31.7% and <span class="o">other</span> which makes up the remaining 4.4%.</p>
@@ -81,8 +92,11 @@
         <p>This box plot shows that both <span class="a"> agriculture</span> and <span class="w">waste</span> methane production are highly variable across the globe,
         while <span class="o">other</span> methane production is not.</p>
     </div>
+    <!-- E2 -->
     </div>
-    </div>
+    <!-- E1 -->
+
+    <div id="pies"></div>
 
 
 </body>
